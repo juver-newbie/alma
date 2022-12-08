@@ -1,0 +1,13 @@
+
+    @font-face
+    {
+      font-family: Built;
+      src: url(<?php echo base_url(); ?>assets/fonts/built_titling_bd.ttf);
+    }
+    #intro #heading
+    {
+      color:#fff;
+      font-size: 60px;
+      font-family: Built Titling BD;
+      text-shadow: 2px 2px #555;
+    }

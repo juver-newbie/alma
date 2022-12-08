@@ -1,0 +1,123 @@
+   
+    @font-face
+    {
+      font-family: University;
+      src: url(<?php echo base_url(); ?>assets/fonts/university.otf);
+    }
+    #header
+    {
+      background: #2d93fd;
+    }
+    .navbar a, .navbar a:focus
+    {
+      color: black;
+    }
+    .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a
+    {
+      color: white;
+    }
+    .header-social-links a
+    {
+      color: black;
+    }
+    .header-social-links a:hover
+    {
+      color: white;
+    }
+    #hero:before
+    {
+      background: rgb(255 255 255 / 0%);
+      background-position: center;
+    }
+    #intro #heading,#intro #subheading
+    {
+      max-width: 600px;
+      /*-webkit-text-stroke: 1px white;*/
+      /*font-weight: bold;*/
+    }
+    #intro #heading
+    {
+      color:#fff;
+      font-size: 50px !important;
+      font-family: Built Titling BD;
+    }
+    #intro #subheading
+    {
+      color:#fff;
+      font-size: 25px;
+      font-family: University;
+    }
+    .mt-10
+    {
+      margin-top: 10px;
+    }
+    .mt-20
+    {
+      margin-top: 20px;
+    }
+    .mt-25
+    {
+      margin-top: 25px;
+    }
+    .mt-30
+    {
+      margin-top: 30px;
+    }
+    .mb-10
+    {
+      margin-bottom: 10px;
+    }
+    .mb-20
+    {
+      margin-bottom: 20px;
+    }
+    .mb-30
+    {
+      margin-bottom: 30px !important;
+    }
+    .b-b-d
+    {
+      border-bottom: 1px dotted lightgray !important;
+    }
+    ::-webkit-scrollbar
+    {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track
+    {
+      background-color: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+      background-color: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover
+    {
+      background: #555;
+    }
+    .bvambient_particle
+{
+  position: absolute;
+  pointer-events: none;
+  transition: top linear, left linear;
+}
+.section-title h2::after
+{
+  background: white;
+}
+.table-div
+{
+  width: 100%;
+  overflow: auto;
+  table-layout: fixed;
+}
+.table-div table tr td
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.table-div table tr th
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
