@@ -1,0 +1,29 @@
+superadmin
+-messages
+-on add admin - check if username existed - js if possible
+-remove check on login form
+-put on same table- admin & superadmin - add privilige column
+
+admin
+-add material
+-update material
+-delete material
+-profile page
+-list of rejected and accepted requests
+-messages
+-admin logs
+-logout
+-menu (home/dashboard,materials,uploas,logs,my profile)
+
+users
+-about
+
+
+MINOR
+-form validity
+-UI
+-js search auto display on keypress
+-mobile friendly tables
+-scrollable
+-deny access to assets file through link
+-check inspect tool for errors
